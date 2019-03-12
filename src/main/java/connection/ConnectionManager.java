@@ -4,7 +4,7 @@ import com.mongodb.client.MongoDatabase;
 
 public class ConnectionManager {
 
-    protected static MongoDatabase getLocalDB() {
+    public static MongoDatabase getLocalDB() {
         MongoDBConnectionBuilder mongoDBConnectionBuilder = new MongoDBConnectionBuilder(
                 "dataselect",
                 "d4t4s3l3ct",
@@ -15,7 +15,7 @@ public class ConnectionManager {
         return mongoDBConnectionBuilder.getDatabase("dataselect");
     }
 
-    protected static MongoDatabase getAtlasDB() {
+    public static MongoDatabase getAtlasDB() {
         final String atlasConnectionString = "mongodb+srv://dataselect:d4t4s3l3ct@listingcluster-7hi3m.mongodb.net/test?retryWrites=true";
         MongoDBConnectionBuilder atlasClusterConnectionBuilder = new MongoDBConnectionBuilder(atlasConnectionString);
         return atlasClusterConnectionBuilder.getDatabase("master-db");
