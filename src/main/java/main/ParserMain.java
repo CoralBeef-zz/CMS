@@ -19,15 +19,18 @@ public class ParserMain {
 
     public ParserMain() {
         try {
-            MongoCollection<Document> collection_to_get = ConnectionManager.UbuntuDB("dataselect")
+            ConnectionManager collection_to_get_manager = new ConnectionManager();
+            MongoCollection<Document> collection_to_get = collection_to_get_manager.UbuntuDB("dataselect")
                     .getCollection("hitosara");
-            MongoCollection<Document> collection_to_upload = ConnectionManager.LocalDB("dataselect")
-                    .getCollection("information2");
 
             FindIterable<Document> info_list = collection_to_get.find();
 
             int data_counter = 0;
             for (Document download_info : info_list) {
+                ConnectionManager collection_to_upload_manager = new ConnectionManager();
+                MongoCollection<Document> collection_to_upload = collection_to_upload_manager.AtlasDB("master-db")
+                        .getCollection("information");
+
                 String source = (String) download_info.get("source");
                 String site = (String) download_info.get("site");
                 Integer siteGroup = Integer.parseInt((String)download_info.get("siteGroup"));
@@ -38,7 +41,11 @@ public class ParserMain {
 
                 System.out.println("UPLOADING DATA FROM SOURCE "+upload_info.getSource());
                 upload_info.insertThisToCollection(collection_to_upload);
+
+                collection_to_upload_manager.getConnectionBuilder().deactivateConnection();
             }
+
+            collection_to_get_manager.getConnectionBuilder().deactivateConnection();
             System.out.println("UPLOAD SUCCESSFUL! " + data_counter + " DATA UPLOADED! ");
         } catch(Exception exc) {
             System.out.println("ERROR ENCOUNTERED! "+exc.toString());
