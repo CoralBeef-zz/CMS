@@ -28,7 +28,7 @@ public class ParserMain {
             int data_counter = 0;
             for (Document download_info : info_list) {
                 ConnectionManager collection_to_upload_manager = new ConnectionManager();
-                MongoCollection<Document> collection_to_upload = collection_to_upload_manager.AtlasDB("master-db")
+                MongoCollection<Document> collection_to_upload = collection_to_upload_manager.AWSDB("MasterDB")
                         .getCollection("information");
 
                 String source = (String) download_info.get("source");
