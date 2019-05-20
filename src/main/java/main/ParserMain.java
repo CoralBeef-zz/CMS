@@ -12,13 +12,15 @@ public class ParserMain {
     public ParserMain() {
             ConnectionManager collection_to_get_manager = new ConnectionManager();
             MongoCollection<Document> collection_to_get = collection_to_get_manager.UbuntuDB("dataselect")
-                    .getCollection("information");
+                    .getCollection("hitosara");
 
             MongoCursor<Document> info_list = collection_to_get.find().noCursorTimeout(true).iterator();
 
             int data_counter = 0;
             while(info_list.hasNext()) {
                 Document download_info = info_list.next();
+
+                System.out.println("Data number "+data_counter+": "+download_info.get("source"));
 
                 ConnectionManager collection_to_upload_manager = new ConnectionManager();
                 MongoCollection<Document> collection_to_upload = collection_to_upload_manager.AWSDB("MasterDB")
@@ -33,7 +35,7 @@ public class ParserMain {
                 ((Map<String, String>)download_info.get("data"))
                         .forEach((key, value) -> upload_info.addData(key, value) );
 
-                System.out.println("UPLOADING DATA FROM SOURCE "+upload_info.getSource());
+                System.out.println(data_counter+") UPLOADING DATA FROM SOURCE "+upload_info.getSource());
                 upload_info.insertThisToCollection(collection_to_upload);
 
                 data_counter++;
