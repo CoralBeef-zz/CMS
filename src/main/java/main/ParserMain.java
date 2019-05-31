@@ -3,7 +3,7 @@ package main;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import connection.ConnectionManager;
-import connection.models.Information;
+import model.Information;
 import org.bson.Document;
 import java.util.Map;
 
@@ -50,7 +50,7 @@ public class ParserMain {
             info_list.close();
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         new ParserMain();
-    }
+    }*/
 }

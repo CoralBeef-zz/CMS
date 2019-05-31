@@ -1,4 +1,4 @@
-package connection.models;
+package model;
 
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.model.Filters;
