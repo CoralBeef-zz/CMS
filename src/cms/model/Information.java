@@ -107,7 +107,6 @@ public class Information {
     public void insertThisToCollection(MongoCollection collection) {
         Document doc = new Document();
 
-        //doc.put("_id", getId());
         doc.put("site", getSite());
         doc.put("siteGroup", getSiteGroup());
         doc.put("source", getSource());

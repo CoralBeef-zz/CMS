@@ -3,11 +3,10 @@
     <output-path>$PROJECT_DIR$/out/artifacts/CMS</output-path>
     <properties id="javafx-properties">
       <options>
-        <option name="appClass" value="cms.Parser" />
+        <option name="appClass" value="cms.CMS" />
         <option name="description" value="" />
         <option name="height" value="600" />
         <option name="htmlPlaceholderId" value="" />
-        <option name="nativeBundle" value="exe" />
         <option name="title" value="CMS" />
         <option name="vendor" value="" />
         <option name="version" value="1.20" />
