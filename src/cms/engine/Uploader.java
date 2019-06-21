@@ -2,7 +2,7 @@ package cms.engine;
 
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
-import cms.engine.connection.ConnectionManager;
+import cms.engine.connection.crawlserver.ConnectionManager;
 import cms.model.Information;
 import org.bson.Document;
 import java.util.Map;

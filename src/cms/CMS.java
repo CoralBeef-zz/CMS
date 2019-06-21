@@ -11,7 +11,7 @@ public class CMS extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(this.getClass().getResource("/cms/view/Login.fxml"));
-        primaryStage.setTitle("Data Select管理システム");
+        primaryStage.setTitle("Crawler Management System");
         primaryStage.setScene(new Scene(root, 500, 600));
         primaryStage.show();
         root.requestFocus();
@@ -20,4 +20,6 @@ public class CMS extends Application {
     public static void main(String[] args) {
         launch(args);
     }
+
+
 }

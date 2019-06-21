@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Data Select CMS.jar" size="19527505" download="eager" />
+    <jar href="Data Select CMS.jar" size="19542641" download="eager" />
   </resources>
   <jfx:javafx-desc  width="500" height="600" main-class="cms.CMS"  name="CMS" />
   <update check="background"/>

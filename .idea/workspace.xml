@@ -7,28 +7,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cms/controller/DashboardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cms/helpers/FXWindowTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cms/view/Dashboard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cms/view/pages/Dashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TestChain/src/main/java/StringUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../TestChain/src/main/java/TestChain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/CMS.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/CMS.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_google_guava_guava_27_1_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/joda_time_joda_time_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/controller/CrawlerStatusController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/controller/GeneralController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/controller/TaskQueueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/engine/connection/crawlserver/ServerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/engine/tasks/CrawlTaskManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/engine/tasks/TaskThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/model/Arachnid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/model/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/view/CrawlerStatusTab.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/view/TaskQueueTab.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/view/stylesheets/SkyTheme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CMS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/CMS/Data Select CMS.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CMS/Data Select CMS.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/CMS/Data Select CMS.jnlp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CMS/Data Select CMS.jnlp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/Parser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/controller/ParserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/model/Columns.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMS/cms/model/Columns.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/model/Information.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMS/cms/model/Information.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/view/ParserLogin.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cms/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/CMS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cms/controller/ParserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cms/model/Columns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/model/Columns.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cms/model/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/model/Information.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cms/view/ParserLogin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/view/Login.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../TestChain/src/main/java/Block.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../TestChain/src/main/java/Block.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/engine/Uploader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMS/cms/engine/Uploader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/engine/connection/ConnectionManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/engine/connection/MongoDBConnectionBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/view/UIStylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/CMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/CMS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/controller/DashboardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/engine/Uploader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/engine/Uploader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/engine/connection/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/engine/connection/crawlserver/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/engine/connection/MongoDBConnectionBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/engine/connection/crawlserver/MongoDBConnectionBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/view/Dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/view/Dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/view/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/view/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/view/UIStylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/view/stylesheets/UIStylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/view/pages/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/view/pages/Dashboard.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,116 +89,80 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="36369430">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="3" />
-          <entry key="fxml" value="54" />
-          <entry key="java" value="428" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="428" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="XML" value="54" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="fxml" value="3" />
-          <entry key="java" value="17" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="17" />
-          <entry key="XML" value="3" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cms/CMS.java">
+        <entry file="file://$PROJECT_DIR$/src/cms/view/stylesheets/UIStylesheet.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cms/view/Login.fxml">
+        <entry file="file://$PROJECT_DIR$/src/cms/engine/tasks/CrawlTaskManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            <state relative-caret-position="34">
+              <caret line="2" column="40" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="40" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cms/engine/tasks/TaskThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="355">
+              <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/cms/controller/LoginController.java">
+        <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/crawlserver/ServerThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+            <state relative-caret-position="629">
+              <caret line="52" column="42" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="42" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1927#1928#0" expanded="true" />
+                <element signature="e#1964#1965#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cms/helpers/FXWindowTools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#centerThisStage#0;class#FXWindowTools#0" />
-                <element signature="method#fadeInNode#0;class#FXWindowTools#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cms/view/pages/Dashboard.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cms/view/Dashboard.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/cms/view/CrawlerStatusTab.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="42" column="95" selection-start-line="42" selection-start-column="95" selection-end-line="42" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cms/controller/CrawlerStatusController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cms/controller/TaskQueueController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="23" selection-start-column="23" selection-end-column="23" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -201,6 +174,18 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>TARGET</find>
+      <find>arachnid</find>
+      <find>runnin</find>
+      <find>running</find>
+      <find>stoptask</find>
+      <find>get</find>
+      <find>taskTh</find>
+      <find>server</find>
+    </findStrings>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -220,17 +205,40 @@
         <option value="$PROJECT_DIR$/src/cms/Parser.java" />
         <option value="$PROJECT_DIR$/src/cms/engine/connection/soup/Request.java" />
         <option value="$PROJECT_DIR$/src/cms/engine/connection/ConnectionManager.java" />
-        <option value="$PROJECT_DIR$/src/cms/engine/Uploader.java" />
         <option value="$PROJECT_DIR$/src/cms/view/Dashboard.java" />
         <option value="$PROJECT_DIR$/src/cms/model/Columns.java" />
         <option value="$PROJECT_DIR$/src/cms/model/Information.java" />
         <option value="$PROJECT_DIR$/src/cms/controller/ParserController.java" />
-        <option value="$PROJECT_DIR$/src/cms/view/Dashboard.fxml" />
         <option value="$PROJECT_DIR$/src/cms/helpers/FXWindowTools.java" />
-        <option value="$PROJECT_DIR$/src/cms/view/pages/Dashboard.java" />
         <option value="$PROJECT_DIR$/src/cms/view/Login.fxml" />
-        <option value="$PROJECT_DIR$/src/cms/CMS.java" />
         <option value="$PROJECT_DIR$/src/cms/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/cms/view/pages/Dashboard.fxml" />
+        <option value="$PROJECT_DIR$/src/cms/controller/DashboardController.java" />
+        <option value="$PROJECT_DIR$/src/cms/view/pages/Dashboard.java" />
+        <option value="$PROJECT_DIR$/src/cms/CMS.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/TaskManager.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/CrawlTaskManager.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/Uploader.java" />
+        <option value="$PROJECT_DIR$/src/cms/view/pages/TaskQueueTab.fxml" />
+        <option value="$PROJECT_DIR$/src/cms/view/UIStylesheet.css" />
+        <option value="$PROJECT_DIR$/src/cms/view/stylesheets/SkyTheme.css" />
+        <option value="$PROJECT_DIR$/src/cms/view/stylesheets/UIStylesheet.css" />
+        <option value="$PROJECT_DIR$/src/cms/model/Task.java" />
+        <option value="$PROJECT_DIR$/src/cms/view/Dashboard.fxml" />
+        <option value="$PROJECT_DIR$/src/cms/controller/GeneralController.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/tasks/Circular.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/tasks/Arachnid.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/connection/soup/TaskThread.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/connection/TaskThread.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/connection/ServerThread.java" />
+        <option value="$PROJECT_DIR$/src/cms/view/TaskQueueTab.fxml" />
+        <option value="$PROJECT_DIR$/src/cms/view/CrawlerStatusTab.fxml" />
+        <option value="$PROJECT_DIR$/src/cms/controller/TaskQueueController.java" />
+        <option value="$PROJECT_DIR$/src/cms/controller/CrawlerStatusController.java" />
+        <option value="$PROJECT_DIR$/src/cms/model/RoundRobin.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/tasks/CrawlTaskManager.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/connection/crawlserver/ServerThread.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/tasks/TaskThread.java" />
       </list>
     </option>
   </component>
@@ -241,7 +249,9 @@
     <option name="width" value="1365" />
     <option name="height" value="740" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -251,7 +261,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -282,7 +291,23 @@
               <item name="CMS" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="helpers" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="connection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
@@ -290,13 +315,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cms" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CMS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cms" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
@@ -315,12 +333,21 @@
             </path>
             <path>
               <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="stylesheets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,28 +363,34 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559560780539" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561100618710" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjectArachnid" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.445977" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\cms\view\stylesheets" />
+      <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\cms\view" />
+      <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\cms\resources\Fonts" />
+      <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\resources\Images" />
+      <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cms.engine.tasks" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\cms\model" />
       <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\cms\engine\connection" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\cms\resources\Fonts" />
-      <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\cms\view" />
-      <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\resources\Images" />
-      <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,19 +418,32 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
+    <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CMS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="CMS" type="Application" factoryName="Application" singleton="true" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cms.CMS" />
+      <module name="CMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrawlTaskManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cms.engine.tasks.CrawlTaskManager" />
       <module name="CMS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cms.*" />
+          <option name="PATTERN" value="cms.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -436,7 +482,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
+    <configuration default="true" type="TestNG">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
@@ -447,11 +493,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -459,10 +505,12 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.CMS" />
+      <item itemvalue="Application.CrawlTaskManager" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.CMS" />
+        <item itemvalue="Application.CrawlTaskManager" />
       </list>
     </recent_temporary>
   </component>
@@ -477,17 +525,25 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1560424324294" duration="2979000" />
+      <workItem from="1560482800073" duration="13271000" />
+      <workItem from="1560746199967" duration="10142000" />
+      <workItem from="1560833103142" duration="5225000" />
+      <workItem from="1560843006414" duration="3874000" />
+      <workItem from="1560919424583" duration="12254000" />
+      <workItem from="1561018306289" duration="28214000" />
+      <workItem from="1561093696397" duration="5669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1302000" />
+    <option name="totallyTimeSpent" value="82930000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.21208054" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.19597316" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -495,8 +551,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32907802" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32624114" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36260623" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -506,9 +562,11 @@
       <window_info anchor="bottom" id="Problems" order="9" />
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32765958" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32294616" />
       <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -519,44 +577,11 @@
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="Image Layers" order="1" />
-      <window_info id="UI Designer" order="2" />
-      <window_info id="Capture Tool" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.6703755" visible="true" weight="0.20939597" />
-      <window_info id="Structure" order="5" weight="0.25" />
-      <window_info id="Favorites" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32962447" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Application Servers" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Problems" order="10" />
-      <window_info anchor="bottom" id="Changes" order="11" />
-      <window_info anchor="bottom" id="Profiler" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
-      <window_info anchor="right" id="JetGradle" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Palette" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="9" />
-    </layout-to-restore>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
@@ -570,9 +595,6 @@
     <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/soup/Http.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/MongoDBConnectionBuilder.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/soup/Helper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -580,80 +602,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/ConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/soup/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cms/engine/Uploader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cms/model/Columns.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cms/model/Information.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cms/view/Dashboard.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cms/controller/DashboardController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cms/view/pages/Dashboard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cms/helpers/FXWindowTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#centerThisStage#0;class#FXWindowTools#0" />
-            <element signature="method#fadeInNode#0;class#FXWindowTools#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -664,30 +619,189 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cms/view/Login.fxml">
+    <entry file="file://$PROJECT_DIR$/src/cms/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        <state relative-caret-position="17">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/view/Login.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cms/CMS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="151">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/model/Information.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/Uploader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/view/stylesheets/SkyTheme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/view/Dashboard.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/controller/GeneralController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cms/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/cms/helpers/FXWindowTools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/crawlserver/MongoDBConnectionBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/crawlserver/ConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/view/pages/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="16" column="97" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/view/TaskQueueTab.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/model/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/view/stylesheets/UIStylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/view/CrawlerStatusTab.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="95" selection-start-line="42" selection-start-column="95" selection-end-line="42" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/controller/CrawlerStatusController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/controller/TaskQueueController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/model/Arachnid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/model/RoundRobin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/tasks/TaskThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/tasks/CrawlTaskManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/crawlserver/ServerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="52" column="42" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="42" />
+          <folding>
+            <element signature="e#1927#1928#0" expanded="true" />
+            <element signature="e#1964#1965#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -702,7 +816,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.15172414" />
+                <option value="0.445977" />
                 <option value="0.5" />
               </list>
             </option>
@@ -715,7 +829,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.445977" />
               </list>
             </option>
           </splitter-proportions>
@@ -726,7 +840,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.445977" />
               </list>
             </option>
           </splitter-proportions>
@@ -751,6 +865,7 @@
             <option name="proportions">
               <list>
                 <option value="0.445977" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -758,7 +873,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>org.jsoup:jsoup:1.12.1</last-edited>
+          <last-edited>com.google.guava:guava:27.1-jre</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -8,7 +8,7 @@
 <?import javafx.scene.image.Image?>
 <VBox fx:controller="cms.controller.LoginController"
       xmlns:fx="http://javafx.com/fxml"
-      stylesheets="/cms/view/UIStylesheet.css"
+      stylesheets="/cms/view/stylesheets/UIStylesheet.css"
       alignment="TOP_CENTER"
       styleClass="content"
       spacing="30"
