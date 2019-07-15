@@ -10,6 +10,7 @@ public class Arachnid {
     private ObjectId activeTaskId;
     private final String ipAddress;
     private Socket socketUsed;
+    private String status = "READY";
 
     public Arachnid() {
         this.id = new ObjectId();
@@ -34,6 +35,14 @@ public class Arachnid {
 
     public void setSocketUsed(Socket socketUsed) {
         this.socketUsed = socketUsed;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 
     public String getIpAddress() {

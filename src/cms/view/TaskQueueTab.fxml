@@ -16,8 +16,18 @@
         <URL value="@/cms/view/stylesheets/SkyTheme.css" />
     </stylesheets>
     <bottom>
-        <FlowPane fx:id="buttonPanel" alignment="CENTER">
+        <BorderPane fx:id="buttonPanel">
+            <top>
+                <TableView fx:id="taskTableView" id="taskTableView">
 
-        </FlowPane>
+                </TableView>
+            </top>
+
+            <bottom>
+                <GridPane prefHeight="300">;
+
+                </GridPane>
+            </bottom>
+        </BorderPane>
     </bottom>
 </BorderPane>

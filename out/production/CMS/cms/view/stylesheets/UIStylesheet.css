@@ -1,0 +1,48 @@
+.content {
+    -fx-background-color: #FAFAFA;
+}
+
+.field {
+    -fx-background-color: #FAFAFA;
+
+    -fx-text-fill: #1D27A1;
+    -fx-font-family: "Meiryo";
+
+    -fx-font-size: 1.1em;
+    -fx-border-color: #7B82DA;
+    -fx-border-width: 0px 0px 1px 1px;
+}
+
+.button {
+    -fx-background-color: #1D26A1;
+    -fx-font-family: "Meiryo";
+    -fx-font-size: 1.7em;
+    -fx-text-fill: #A9AEEC;
+}
+
+.button:hover{
+    -fx-background-color: #7B82DA;
+    -fx-text-fill: #1D26A1;
+}
+
+.button:pressed {
+    -fx-background-color: #5860C7;
+    -fx-text-fill: #1D26A1;
+}
+
+.crawlerBox-Red {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+#systemTerminal {
+    -fx-border-color: #E92F25;
+    -fx-border-width: 5px;
+    -fx-control-inner-background: #000000;
+    -fx-font-family: "LCD Solid";
+    -fx-highlight-fill: #FFDD6B;
+    -fx-highlight-text-fill: #000000;
+    -fx-text-fill: #FFBDBA;
+}

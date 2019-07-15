@@ -10,22 +10,34 @@ public class Task {
     private Integer siteGroup;
     private String source;
     private String site;
-    private String partitionString;
     private String pageType;
     private String status;
     private String crawlerId;
+    private String dataJSON;
     private Date dateCreated;
 
     private Task() {}
-    public Task(ObjectId id, Integer siteGroup, String source, String site, String partitionString, String pageType) {
+    public Task(ObjectId id, Integer siteGroup, String source, String site, String pageType, String dataJSON) {
         this.id = id;
         this.siteGroup = siteGroup;
         this.source = source;
         this.site = site;
-        this.partitionString = partitionString;
         this.pageType = pageType;
         this.crawlerId = "";
         this.dateCreated = Instant.now().toDate();
+        this.dataJSON = dataJSON;
+    }
+
+    public Task(ObjectId id, Integer siteGroup, String source, String site, String pageType, String status, String crawlerId, String dataJSON, Date dateCreated) {
+        this.id = id;
+        this.siteGroup = siteGroup;
+        this.source = source;
+        this.site = site;
+        this.pageType = pageType;
+        this.status = status;
+        this.crawlerId = crawlerId;
+        this.dataJSON = dataJSON;
+        this.dateCreated = dateCreated;
     }
 
     public ObjectId getId() {
@@ -56,14 +68,6 @@ public class Task {
         this.site = site;
     }
 
-    public String getPartitionString() {
-        return partitionString;
-    }
-
-    public void setPartitionString(String partitionString) {
-        this.partitionString = partitionString;
-    }
-
     public String getPageType() {
         return pageType;
     }
@@ -92,6 +96,11 @@ public class Task {
         return dateCreated;
     }
 
+    public String getData() {
+        return dataJSON;
+    }
 
-
+    public void setData(String dataJSON) {
+        this.dataJSON = dataJSON;
+    }
 }

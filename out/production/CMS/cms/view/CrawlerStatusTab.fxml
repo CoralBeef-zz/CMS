@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import java.net.URL?>
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="cms.controller.CrawlerStatusController"
+            prefWidth="700" prefHeight="800" >
+    <stylesheets>
+        <URL value="@/cms/view/stylesheets/UIStylesheet.css" />
+        <URL value="@/cms/view/stylesheets/SkyTheme.css" />
+    </stylesheets>
+    <center>
+        <FlowPane fx:id="crawlPanel" alignment="CENTER">
+            <TextArea prefWidth="452" prefHeight="500"
+                      id="systemTerminal" fx:id="systemTerminal"> </TextArea>
+        </FlowPane>
+    </center>
+
+    <right>
+        <ScrollPane fx:id="crawlDetailScroll">
+            <FlowPane fx:id="crawlDetail"
+                      alignment="CENTER"
+                      prefWidth="240" prefHeight="497"
+            >
+                <padding><Insets top="5" right="5" bottom="5" left="5"/></padding>
+
+            </FlowPane>
+        </ScrollPane>
+    </right>
+
+    <bottom>
+        <ScrollPane fx:id="activeCrawlerListScroll">
+            <FlowPane fx:id="activeCrawlerListPane"
+                      hgap="10" vgap="10"
+                      prefWidth="697" prefHeight="300">
+                <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+
+            </FlowPane>
+        </ScrollPane>
+    </bottom>
+
+</BorderPane>

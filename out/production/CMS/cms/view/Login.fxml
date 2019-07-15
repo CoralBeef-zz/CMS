@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<VBox fx:controller="cms.controller.LoginController"
+      xmlns:fx="http://javafx.com/fxml"
+      stylesheets="/cms/view/stylesheets/UIStylesheet.css"
+      alignment="TOP_CENTER"
+      styleClass="content"
+      spacing="30"
+      fx:id="loginRoot"
+>
+
+    <padding><Insets top="120" right="50" bottom="0" left="50"/></padding>
+
+    <children>
+        <ImageView id="dataSelectLogo" fitWidth="400.0"
+                   smooth="true" cache="true" preserveRatio="true">
+            <image>
+                <Image url="/cms/resources/Images/dataselect.png" />
+            </image>
+        </ImageView>
+
+        <TextField
+                fx:id="username"
+                minHeight="30"
+                prefHeight="40"
+                styleClass="field"
+                promptText="ログインID">
+        </TextField>
+
+        <TextField
+                fx:id="password"
+                styleClass="field"
+                minHeight="30"
+                prefHeight="40"
+                promptText="パスワード">
+        </TextField>
+
+        <Button
+                fx:id="submit"
+                styleClass="button"
+                prefWidth="200"
+                minHeight="70"
+                prefHeight="70"
+                text="ログイン">
+        </Button>
+
+        <Label
+                fx:id="status"
+                styleClass="status"
+                text="">
+        </Label>
+
+    </children>
+</VBox>

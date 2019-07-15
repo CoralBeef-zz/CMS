@@ -1,6 +1,7 @@
 package cms.engine.connection.crawlserver;
 
 import cms.controller.CrawlerStatusController;
+import cms.engine.tasks.CrawlTaskManager;
 import cms.model.Arachnid;
 import com.google.gson.Gson;
 import javafx.application.Platform;
@@ -17,7 +18,6 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class ServerThread extends Task<Void> {
 
     private ServerSocket serverSocket;
-    private final CopyOnWriteArrayList<Arachnid> activeCrawlers = new CopyOnWriteArrayList<>();
 
     private static final int port = 6789;
     private CrawlerStatusController crawlerStatusController;
@@ -60,10 +60,6 @@ public class ServerThread extends Task<Void> {
         }
     }
 
-    public CopyOnWriteArrayList<Arachnid> getActiveCrawlers() {
-        return activeCrawlers;
-    }
-
     private void activateCrawlerFromSocket(Socket sourceSocket) {
         try {
             DataInputStream inputStream = new DataInputStream(sourceSocket.getInputStream());
@@ -71,20 +67,9 @@ public class ServerThread extends Task<Void> {
             Arachnid receivedArachnid = new Gson().fromJson(receivedArachnidJSON, Arachnid.class);
             receivedArachnid.setSocketUsed(sourceSocket);
 
-            this.activeCrawlers.add(receivedArachnid);
-
-            Platform.runLater(() -> crawlerStatusController.activateCrawler(receivedArachnid));
+            Platform.runLater(() -> crawlerStatusController.activateCrawler(receivedArachnid, CrawlTaskManager.getInstance()));
         } catch(IOException exc) {
 
-        }
-    }
-
-    public void close() {
-        try {
-            Iterator<Arachnid> iterator = activeCrawlers.iterator();
-            while(iterator.hasNext()) iterator.next().getSocketUsed().close();
-            serverSocket.close();
-        } catch (IOException exc) {
         }
     }
 

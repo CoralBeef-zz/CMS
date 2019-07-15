@@ -40,7 +40,6 @@
                       hgap="10" vgap="10"
                       prefWidth="697" prefHeight="300">
                 <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
-                <Button fx:id="runCrawlerButton" styleClass="button" text="Run Tasks"></Button>
 
             </FlowPane>
         </ScrollPane>
