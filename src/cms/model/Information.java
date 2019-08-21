@@ -9,10 +9,7 @@ import org.bson.types.ObjectId;
 
 import java.time.OffsetDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 import static com.mongodb.client.model.Filters.*;
 
@@ -104,14 +101,18 @@ public class Information {
         data_list.forEach((column,value) -> addData(column.val, value));
     }
 
-    public void insertThisToCollection(MongoCollection collection) {
+    @SuppressWarnings("Duplicates")
+    public void insertDataOnlyToCollection(MongoCollection collection) {
         Document doc = new Document();
 
         doc.put("site", getSite());
         doc.put("siteGroup", getSiteGroup());
         doc.put("source", getSource());
+
+        for (Map.Entry<String, Object> entry : getData().entrySet())
+            doc.put(entry.getKey(), entry.getValue());
+
         doc.put("crawledDate", getCrawledDate());
-        doc.put("data", getData());
 
         ArrayList<Bson> dataToCheckForNotEqual = new ArrayList<>();
         getData().forEach((column, value) -> dataToCheckForNotEqual.add(ne(column, value)) );
@@ -124,5 +125,36 @@ public class Information {
                 doc,
                 new FindOneAndReplaceOptions().upsert(true)
         );
+    }
+
+    @SuppressWarnings("Duplicates")
+    public void insertThisToCollection(MongoCollection collection) {
+        boolean retry = true;
+        while (retry) {
+            try {
+                Document doc = new Document();
+
+                doc.put("site", getSite());
+                doc.put("siteGroup", getSiteGroup());
+                doc.put("source", getSource());
+                doc.put("crawledDate", getCrawledDate());
+                doc.put("data", getData());
+
+                ArrayList<Bson> dataToCheckForNotEqual = new ArrayList<>();
+                getData().forEach((column, value) -> dataToCheckForNotEqual.add(ne(column, value)));
+                collection.findOneAndReplace(
+                        Filters.and(
+                                eq("source", getSource()),
+                                eq("site", getSite()),
+                                or(dataToCheckForNotEqual)
+                        ),
+                        doc,
+                        new FindOneAndReplaceOptions().upsert(true)
+                );
+
+            } catch (Exception exc) {
+                exc.printStackTrace();
+            }
+        }
     }
 }

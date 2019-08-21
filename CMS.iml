@@ -14,5 +14,10 @@
     <orderEntry type="library" exported="" name="org.jsoup:jsoup:1.12.1" level="project" />
     <orderEntry type="library" name="joda-time:joda-time:2.10.2" level="project" />
     <orderEntry type="library" name="com.google.guava:guava:27.1-jre" level="project" />
+    <orderEntry type="library" name="commons-csv-1.4" level="project" />
+    <orderEntry type="library" name="com.googlecode.juniversalchardet:juniversalchardet:1.0.3" level="project" />
+    <orderEntry type="library" name="com.github.albfernandez:juniversalchardet:2.3.0" level="project" />
+    <orderEntry type="library" name="com.rabbitmq:amqp-client:3.1.1" level="project" />
+    <orderEntry type="library" name="org.json:json:20180813" level="project" />
   </component>
 </module>

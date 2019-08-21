@@ -1,6 +1,6 @@
 package cms.controller;
 
-import cms.helpers.FXWindowTools;
+import cms.engine.helpers.FXWindowTools;
 import cms.view.pages.Dashboard;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;

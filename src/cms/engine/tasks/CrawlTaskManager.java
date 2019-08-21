@@ -33,29 +33,33 @@ public class CrawlTaskManager {
         taskActualThread.setDaemon(true);
     }
 
-    private class TaskThread extends Thread {
+    private class TaskThread extends javafx.concurrent.Task {
         public boolean threadActive = true;
 
         @Override
-        public void run() {
+        protected Void call() {
             boolean notYetPrinted = true;
             while(threadActive) {
                 Task nextTask = CrawlTaskManager.getTask();
                 if(activeCrawlerList.size() > 0) {
-                    Socket nextArachnidSocket = activeCrawlerList.get(roundRobinCounter).getSocketUsed();
+                    Arachnid nextArachnid = nextAvailableArachnid();
+                    Socket nextArachnidSocket = nextArachnid.getSocketUsed();
+
                     if(nextTask == null || nextArachnidSocket == null) {
                         if(notYetPrinted) {
-                            System.out.println("No Task/Crawler Available");
+                            System.out.println("No Task to Send!");
                             notYetPrinted = false;
                         }
                     }
                     else {
+                        System.out.println("No Crawler Available!");
                         CrawlTaskManager.sendTask(nextArachnidSocket, nextTask);
                         notYetPrinted = true;
                     }
                 }
-                try { Thread.sleep(1000); } catch (InterruptedException exc) {}
+                try { Thread.sleep(100); } catch (InterruptedException exc) {}
             }
+            return null;
         }
     }
 
@@ -92,6 +96,20 @@ public class CrawlTaskManager {
         }
     }
 
+    private Arachnid nextAvailableArachnid() {
+        int currentCounter = roundRobinCounter;
+        Arachnid nextArachnid = activeCrawlerList.get(roundRobinCounter);
+        do {
+            if (nextArachnid.getStatus().equals("AVAILABLE")) {
+                return nextArachnid;
+            } else {
+                roundRobinCounter = ((roundRobinCounter + 1) < (activeCrawlerList.size())) ? (roundRobinCounter + 1) : 0;
+                nextArachnid = activeCrawlerList.get(roundRobinCounter);
+            }
+        } while(roundRobinCounter != currentCounter);
+        return null;
+    }
+
     public static Task getTask() {
         try {
             ConnectionManager collection_manager = new ConnectionManager();
@@ -117,6 +135,26 @@ public class CrawlTaskManager {
         } catch(NullPointerException exc) {
             return null;
         }
+    }
+
+    public static void uploadTask(Task task) {
+        try {
+            ConnectionManager connection_manager = new ConnectionManager();
+            MongoCollection<Document> collection = connection_manager.UbuntuDB("dataselect_crawler")
+                    .getCollection("tasks");
+
+            Document doc = new Document();
+            doc.put("_id", task.getId());
+            doc.put("siteGroup", task.getSiteGroup());
+            doc.put("source", task.getSource());
+            doc.put("site", task.getSite());
+            doc.put("pageType", task.getPageType());
+            doc.put("status", "ON_QUEUE");
+            doc.put("crawlerId", task.getCrawlerId());
+            doc.put("dataJSON", task.getData());
+            doc.put("dateCreated", task.getDateCreated());
+            collection.insertOne(doc);
+        } catch(Exception exc) { exc.printStackTrace(); }
     }
 
     public ArrayList<Arachnid> getActiveCrawlerList() {

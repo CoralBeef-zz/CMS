@@ -14,11 +14,11 @@
 >
 
     <Tab fx:id="crawlerStatusTab" text="Crawler Status">
-        <fx:include source="/cms/view/CrawlerStatusTab.fxml"></fx:include>
+        <fx:include source="/cms/view/old/CrawlerStatusTab.fxml"></fx:include>
     </Tab>
 
     <Tab text="Task Queue">
-        <fx:include source="/cms/view/TaskQueueTab.fxml"></fx:include>
+        <fx:include source="/cms/view/old/TaskQueueTab.fxmlfxml"></fx:include>
     </Tab>
 
     <Tab text="Database View">

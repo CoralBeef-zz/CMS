@@ -1,0 +1,1179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CMS" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/aquafx_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_github_albfernandez_juniversalchardet_2_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_googlecode_juniversalchardet_juniversalchardet_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_csv_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/controller/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/engine/connection/crawlserver/CrawlerStatusUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/engine/uploader/CSVUploader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/model/ui/AddTaskPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/model/ui/ArachnidBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/model/ui/CrawledDataListLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/model/ui/CsvColumnSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/model/ui/TaskGroupPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cms/view/pages/fxml/Dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CMS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CMS/Data Select CMS.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CMS/Data Select CMS.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CMS/Data Select CMS.jnlp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CMS/Data Select CMS.jnlp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/CMS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMS/cms/CMS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMS/cms/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/engine/Uploader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/engine/connection/crawlserver/ServerThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMS/cms/engine/connection/crawlserver/ServerThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/engine/tasks/CrawlTaskManager$TaskThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMS/cms/engine/tasks/CrawlTaskManager$TaskThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/engine/tasks/CrawlTaskManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMS/cms/engine/tasks/CrawlTaskManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/helpers/FXWindowTools.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/model/Columns.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMS/cms/model/Columns.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/model/Information.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMS/cms/model/Information.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/view/CrawlerStatusTab.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/view/Dashboard.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/view/Login.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/view/TaskQueueTab.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/view/pages/Dashboard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMS/cms/view/pages/Dashboard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/view/stylesheets/SkyTheme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/view/stylesheets/UIStylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/CMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/CMS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/engine/Uploader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/engine/uploader/Uploader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/engine/connection/crawlserver/ServerThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/engine/connection/crawlserver/ServerThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/engine/tasks/CrawlTaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/engine/tasks/CrawlTaskManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/helpers/FXWindowTools.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/engine/helpers/FXWindowTools.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/model/Columns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/model/Columns.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/model/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/model/Information.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/view/CrawlerStatusTab.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/view/old/CrawlerStatusTab.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/view/Dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/view/old/Dashboard.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/view/Login.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/view/old/Login.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/view/TaskQueueTab.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/view/old/TaskQueueTab.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/view/pages/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/view/old/pages/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/view/stylesheets/SkyTheme.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/view/old/stylesheets/SkyTheme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cms/view/stylesheets/UIStylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/view/old/stylesheets/UIStylesheet.css" afterDir="false" />
+    </list>
+    <ignored path="JavaFxApplication.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cms/controller/DashboardController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="141" selection-start-line="141" selection-end-line="141" />
+              <folding>
+                <element signature="method#addTaskGroup#0;class#DashboardController#0" />
+                <element signature="e#3495#3496#0" expanded="true" />
+                <element signature="e#3567#3568#0" expanded="true" />
+                <element signature="method#activateCrawler#0;class#DashboardController#0" />
+                <element signature="method#updateCrawlerStatus#0;class#DashboardController#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cms/view/pages/fxml/Dashboard.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="73" column="44" lean-forward="true" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cms/model/ui/CsvColumnSelector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="100" column="62" selection-start-line="100" selection-start-column="62" selection-end-line="100" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cms/model/Columns.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+              <folding>
+                <element signature="e#732#753#0" />
+                <element signature="e#1619#2286#0" />
+                <element signature="e#2292#3246#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cms/engine/uploader/CSVUploader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="44" column="45" lean-forward="true" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cms/engine/uploader/Uploader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+              <folding>
+                <element signature="e#3006#3007#0" expanded="true" />
+                <element signature="e#3077#3078#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cms/model/ui/CrawledDataListLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cms/model/Information.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-85">
+              <caret line="109" column="39" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cms/engine/tasks/CrawlTaskManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="method#CrawlTaskManager#0;class#CrawlTaskManager#0" />
+                <element signature="method#getInstance#0;class#CrawlTaskManager#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/crawlserver/ServerThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get</find>
+      <find>taskTh</find>
+      <find>server</find>
+      <find>serverso</find>
+      <find>send</find>
+      <find>SENDING</find>
+      <find>activate</find>
+      <find>activateCrawler</find>
+      <find>task</find>
+      <find>uploadTas</find>
+      <find>sendTask</find>
+      <find>roundRobinCounter</find>
+      <find>accept</find>
+      <find>title</find>
+      <find>remaking</find>
+      <find>wait</find>
+      <find>server conn</find>
+      <find>CsvColumn</find>
+      <find>YEP THIS</find>
+      <find>taskR</find>
+      <find>u</find>
+      <find>target Site</find>
+      <find>target</find>
+      <find>TARGET</find>
+      <find>crawledDataList</find>
+      <find>Upload</find>
+      <find>CsvColumnSe</find>
+      <find>Aqua</find>
+      <find>Browse</find>
+      <find>CSVUplo</find>
+    </findStrings>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/cms/engine/TaskManager.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/CrawlTaskManager.java" />
+        <option value="$PROJECT_DIR$/src/cms/view/pages/TaskQueueTab.fxml" />
+        <option value="$PROJECT_DIR$/src/cms/view/UIStylesheet.css" />
+        <option value="$PROJECT_DIR$/src/cms/view/stylesheets/SkyTheme.css" />
+        <option value="$PROJECT_DIR$/src/cms/view/stylesheets/UIStylesheet.css" />
+        <option value="$PROJECT_DIR$/src/cms/view/Dashboard.fxml" />
+        <option value="$PROJECT_DIR$/src/cms/controller/GeneralController.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/tasks/Circular.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/tasks/Arachnid.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/connection/soup/TaskThread.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/connection/TaskThread.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/connection/ServerThread.java" />
+        <option value="$PROJECT_DIR$/src/cms/model/RoundRobin.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/tasks/TaskThread.java" />
+        <option value="$PROJECT_DIR$/src/cms/model/Arachnid.java" />
+        <option value="$PROJECT_DIR$/src/cms/view/CrawlerStatusTab.fxml" />
+        <option value="$PROJECT_DIR$/src/cms/model/Task.java" />
+        <option value="$PROJECT_DIR$/src/cms/controller/TaskQueueController.java" />
+        <option value="$PROJECT_DIR$/src/cms/view/TaskQueueTab.fxml" />
+        <option value="$PROJECT_DIR$/src/cms/CMS.java" />
+        <option value="$PROJECT_DIR$/src/cms/view/old/Dashboard.java" />
+        <option value="$PROJECT_DIR$/src/cms/view/old/fxml/Dashboard.fxml" />
+        <option value="$PROJECT_DIR$/src/cms/controller/App.java" />
+        <option value="$PROJECT_DIR$/src/cms/helpers/FXWindowTools.java" />
+        <option value="$PROJECT_DIR$/src/cms/controller/CrawlerStatusController.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/connection/crawlserver/CrawlerStatusUpdate.java" />
+        <option value="$PROJECT_DIR$/src/cms/controller/Exam.java" />
+        <option value="$PROJECT_DIR$/src/cms/controller/Main.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/Uploader.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/connection/crawlserver/Uploader.java" />
+        <option value="$PROJECT_DIR$/src/cms/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/cms/view/old/pages/Dashboard.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/uploader/CSVProcessor.java" />
+        <option value="$PROJECT_DIR$/src/cms/model/Information.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/uploader/Uploader.java" />
+        <option value="$PROJECT_DIR$/src/cms/view/pages/css/flatbee.css" />
+        <option value="$PROJECT_DIR$/src/cms/view/pages/css/bootstrap3.css" />
+        <option value="$PROJECT_DIR$/src/cms/model/ui/TaskGroupPane.java" />
+        <option value="$PROJECT_DIR$/src/cms/model/ui/AddTaskPane.java" />
+        <option value="$PROJECT_DIR$/src/cms/view/pages/Dashboard.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/tasks/CrawlTaskManager.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/connection/crawlserver/ServerThread.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/helpers/FXWindowTools.java" />
+        <option value="$PROJECT_DIR$/src/cms/model/ui/ArachnidBox.java" />
+        <option value="$PROJECT_DIR$/src/cms/model/ui/CrawledDataListLoader.java" />
+        <option value="$PROJECT_DIR$/src/cms/view/pages/fxml/Dashboard.fxml" />
+        <option value="$PROJECT_DIR$/src/cms/controller/DashboardController.java" />
+        <option value="$PROJECT_DIR$/src/cms/engine/uploader/CSVUploader.java" />
+        <option value="$PROJECT_DIR$/src/cms/model/ui/CsvColumnSelector.java" />
+        <option value="$PROJECT_DIR$/src/cms/model/Columns.java" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="630" />
+    <option name="width" value="1235" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+              <item name="uploader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="fxml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMS" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="cms" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565107090220" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/aquafx-0.1-complete/aquafx-0.1.jar!/" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.445977" />
+    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\cms\model" />
+      <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\cms\engine\connection" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cms.engine.tasks" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\cms\view\old" />
+      <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\cms\view\stylesheets" />
+      <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\cms\view" />
+      <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\cms\resources\Fonts" />
+      <recent name="C:\Users\donne\Dropbox\BIT\DataSelect\CMS\src\resources\Images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.CMS">
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cms.controller.App" />
+      <module name="CMS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cms.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CMS" type="Application" factoryName="Application" singleton="true" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cms.CMS" />
+      <module name="CMS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cms.controller.Exam" />
+      <module name="CMS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cms.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cms.controller.Main" />
+      <module name="CMS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cms.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="cms.Main" />
+      <module name="CMS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cms.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Uploader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cms.engine.uploader.Uploader" />
+      <module name="CMS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cms.engine.uploader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.CMS" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.Exam" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Uploader" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CMS" />
+        <item itemvalue="Application.Uploader" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Exam" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1560424324294" duration="2979000" />
+      <workItem from="1560482800073" duration="13271000" />
+      <workItem from="1560746199967" duration="10142000" />
+      <workItem from="1560833103142" duration="5225000" />
+      <workItem from="1560843006414" duration="3874000" />
+      <workItem from="1560919424583" duration="12254000" />
+      <workItem from="1561018306289" duration="28214000" />
+      <workItem from="1561093696397" duration="13085000" />
+      <workItem from="1561352221690" duration="625000" />
+      <workItem from="1561424400357" duration="5813000" />
+      <workItem from="1561438327850" duration="14712000" />
+      <workItem from="1562314180737" duration="981000" />
+      <workItem from="1562745645878" duration="3078000" />
+      <workItem from="1562819762313" duration="14043000" />
+      <workItem from="1562847336113" duration="5298000" />
+      <workItem from="1562906025154" duration="11522000" />
+      <workItem from="1562920626960" duration="609000" />
+      <workItem from="1562921390573" duration="4207000" />
+      <workItem from="1563190161023" duration="42856000" />
+      <workItem from="1563352960107" duration="5523000" />
+      <workItem from="1563435125546" duration="1973000" />
+      <workItem from="1563439881208" duration="22567000" />
+      <workItem from="1563514448251" duration="4900000" />
+      <workItem from="1563521975003" duration="5991000" />
+      <workItem from="1563770371439" duration="5062000" />
+      <workItem from="1563960522591" duration="11794000" />
+      <workItem from="1564106719004" duration="10655000" />
+      <workItem from="1564328800718" duration="596000" />
+      <workItem from="1564369378829" duration="5230000" />
+      <workItem from="1564380881185" duration="11140000" />
+      <workItem from="1564446225967" duration="12104000" />
+      <workItem from="1564498261964" duration="3727000" />
+      <workItem from="1564531587647" duration="1334000" />
+      <workItem from="1564536343949" duration="11377000" />
+      <workItem from="1564619597695" duration="961000" />
+      <workItem from="1564713525005" duration="9803000" />
+      <workItem from="1564980347368" duration="34606000" />
+      <workItem from="1565145507059" duration="12000" />
+      <workItem from="1565148795811" duration="9564000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="363009000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.30134228" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Favorites" order="2" weight="0.3295302" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23371105" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Problems" order="9" />
+      <window_info anchor="bottom" id="Changes" order="10" />
+      <window_info anchor="bottom" id="Profiler" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.19546743" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Docker" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="JetGradle" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/soup/Http.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/soup/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/soup/Request.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="2600" selection-start-line="2600" selection-end-line="2600" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/view/old/stylesheets/SkyTheme.css" />
+    <entry file="file://$PROJECT_DIR$/src/cms/model/RoundRobin.java" />
+    <entry file="file://$PROJECT_DIR$/src/cms/view/old/stylesheets/UIStylesheet.css" />
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/tasks/TaskThread.java" />
+    <entry file="file://$PROJECT_DIR$/src/cms/controller/TaskQueueController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/controller/GeneralController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/view/old/TaskQueueTab.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/view/old/CrawlerStatusTab.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/controller/App.java" />
+    <entry file="file://$PROJECT_DIR$/src/cms/controller/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/crawlserver/MongoDBConnectionBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-973">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/model/Arachnid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#845#846#0" expanded="true" />
+            <element signature="e#889#890#0" expanded="true" />
+            <element signature="e#925#926#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/view/old/pages/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="60" lean-forward="true" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/crawlserver/ConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/crawlserver/CrawlerStatusUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/view/pages/css/flatbee.css" />
+    <entry file="file://$PROJECT_DIR$/src/cms/view/old/Dashboard.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/view/pages/css/bootstrap3.css" />
+    <entry file="file://$PROJECT_DIR$/src/cms/model/ui/TaskGroupPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/view/old/Login.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="47" column="40" lean-forward="true" selection-start-line="47" selection-start-column="40" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/view/pages/Dashboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/CMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/controller/CrawlerStatusController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/helpers/FXWindowTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="method#centerThisStage#0;class#FXWindowTools#0" />
+            <element signature="method#fadeInNode#0;class#FXWindowTools#0" />
+            <element signature="method#setStaticSize#0;class#FXWindowTools#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/model/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/model/ui/ArachnidBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ArachnidBox#0;class#ArachnidBox#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/model/ui/AddTaskPane.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="24" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/tasks/CrawlTaskManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="method#CrawlTaskManager#0;class#CrawlTaskManager#0" />
+            <element signature="method#getInstance#0;class#CrawlTaskManager#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/crawlserver/ServerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/model/ui/CrawledDataListLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/controller/DashboardController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+          <folding>
+            <element signature="method#addTaskGroup#0;class#DashboardController#0" />
+            <element signature="e#3495#3496#0" expanded="true" />
+            <element signature="e#3567#3568#0" expanded="true" />
+            <element signature="method#activateCrawler#0;class#DashboardController#0" />
+            <element signature="method#updateCrawlerStatus#0;class#DashboardController#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/view/pages/fxml/Dashboard.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="73" column="44" lean-forward="true" selection-start-line="73" selection-start-column="44" selection-end-line="73" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/model/Information.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="109" column="39" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/uploader/Uploader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="53" column="29" lean-forward="true" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+          <folding>
+            <element signature="e#3006#3007#0" expanded="true" />
+            <element signature="e#3077#3078#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/uploader/CSVUploader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="44" column="45" lean-forward="true" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/model/ui/CsvColumnSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="100" column="62" selection-start-line="100" selection-start-column="62" selection-end-line="100" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/model/Columns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="64" column="17" lean-forward="true" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+          <folding>
+            <element signature="e#732#753#0" />
+            <element signature="e#1619#2286#0" />
+            <element signature="e#2292#3246#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>CMS</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.445977" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.445977" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.445977" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.445977" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CMS</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.445977" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>aquafx-0.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.445977" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

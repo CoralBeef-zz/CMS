@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="cms.controller.DashboardController"
+            prefHeight="800.0" prefWidth="1200.0"
+            >
+    <top>
+    <MenuBar fx:id="menuBar">
+        <menus>
+            <Menu text="File">
+                <items>
+                    <MenuItem text="Exit"/>
+                </items>
+            </Menu>
+            <Menu text="Help">
+                <items>
+                    <MenuItem text="About"/>
+                </items>
+            </Menu>
+        </menus>
+    </MenuBar>
+
+    </top>
+
+    <center>
+        <BorderPane>
+        <center>
+            <ScrollPane style="-fx-border-color:black;">
+            <GridPane fx:id="uploaderPane" id="uploaderPane"
+                      prefHeight="900.0" prefWidth="600"
+            >
+                <padding><Insets top="10" right="20" bottom="10" left="20"/></padding>
+
+                <Label GridPane.columnIndex="1" GridPane.rowIndex="1"
+                       text="Crawled Data Uploader">
+                </Label>
+                <FlowPane GridPane.columnIndex="1" GridPane.rowIndex="2"
+                          minHeight="20.0" prefHeight="20.0"/>
+
+                <ComboBox fx:id="crawledDataList" id="crawledDataList"
+                          GridPane.columnIndex="1" GridPane.rowIndex="3"
+                          GridPane.columnSpan="2"
+                          prefWidth="400.0" prefHeight="20.0">
+                    <value>
+                        <String fx:value="doda" />
+                    </value>
+                </ComboBox>
+                <Button fx:id="uploadButton" id="uploadButton" text="Upload"
+                        prefHeight="20.0" prefWidth="100.0"
+                        GridPane.columnIndex="3" GridPane.rowIndex="3"
+                >
+                </Button>
+                <ProgressBar fx:id="uploadProgressBar" id="uploadProgressBar" layoutX="23.0" layoutY="111.0"
+                         prefHeight="20.0" prefWidth="400.0" progress="0.0"
+                         GridPane.columnIndex="1" GridPane.rowIndex="5"
+                         GridPane.columnSpan="2"
+                />
+                <ProgressIndicator fx:id="uploadProgressIndicator" id="uploadProgressIndicator"
+                         prefHeight="20.0" prefWidth="400.0" progress="0.0"
+                         GridPane.columnIndex="1" GridPane.rowIndex="6"
+                         GridPane.columnSpan="2"
+                                   ></ProgressIndicator>
+
+                <Label fx:id="uploadProgressLabel" id="uploadProgressLabel" text="Waiting"
+                       prefHeight="20.0" prefWidth="100.0"
+                       GridPane.columnIndex="3" GridPane.rowIndex="5">
+                </Label>
+
+
+                <FlowPane GridPane.columnIndex="1" GridPane.rowIndex="8"
+                          minHeight="50.0" prefHeight="50.0"/>
+
+                <Label GridPane.columnIndex="1" GridPane.rowIndex="9"
+                       text="CSV Uploader">
+                </Label>
+                <FlowPane GridPane.columnIndex="1" GridPane.rowIndex="10"
+                          minHeight="20.0" prefHeight="20.0"/>
+
+                <TextField GridPane.columnIndex="1" GridPane.rowIndex="11"
+                           GridPane.columnSpan="2"
+                           fx:id="uploadCSVTextField" id="uploadCSVTextField"
+                           prefWidth="500">
+                </TextField>
+                <Button fx:id="browseCSVButton" id="browseCSVButton" text="Browse"
+                        GridPane.columnIndex="3" GridPane.rowIndex="11"
+                        prefWidth="100">
+                </Button>
+
+                <FlowPane GridPane.columnIndex="1" GridPane.rowIndex="13"
+                          minHeight="50.0" prefHeight="50.0"/>
+            </GridPane>
+            </ScrollPane>
+        </center>
+        <bottom>
+            <HBox
+                  minHeight="20.0" prefHeight="20.0"
+                    fx:id="uploaderStatusBar" id="uploaderStatusBar">
+            </HBox>
+        </bottom>
+        </BorderPane>
+    </center>
+    <right>
+        <VBox>
+            <GridPane style="-fx-background-color:indianred;"
+                      prefHeight="400.0" prefWidth="600.0"></GridPane>
+            <ScrollPane style="-fx-border-color:black;">
+                <VBox fx:id="taskRootPane" id="taskRootPane"
+                      spacing="5"
+                      alignment="TOP_CENTER"
+                      prefHeight="500.0" prefWidth="600.0">
+                    <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+                </VBox>
+            </ScrollPane>
+        </VBox>
+    </right>
+
+    <bottom>
+        <ScrollPane style="-fx-border-color:black;">
+            <FlowPane fx:id="crawlerRootPane" id="crawlerRootPane"
+                      prefHeight="100.0" prefWidth="1200.0" hgap="10"
+            >
+                <padding><Insets top="10" right="20" bottom="10" left="20"/></padding>
+            </FlowPane>
+        </ScrollPane>
+    </bottom>
+</BorderPane>

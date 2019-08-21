@@ -24,7 +24,6 @@ public class CrawlerStatusController {
 
     @FXML
     public void initialize() {
-        serverThread = new ServerThread(this);
         taskManager = getInstance();
 
         Thread serverThread = new Thread(this.serverThread);
@@ -34,7 +33,6 @@ public class CrawlerStatusController {
         Thread taskThread = new Thread(this.taskManager.getTaskThread());
         taskThread.setDaemon(true);
         taskThread.start();
-
     }
 
     public class CrawlerBox extends Button {

@@ -12,14 +12,14 @@
             fx:controller="cms.controller.TaskQueueController"
             prefWidth="700" prefHeight="800" >
     <stylesheets>
-        <URL value="@/cms/view/stylesheets/UIStylesheet.css" />
-        <URL value="@/cms/view/stylesheets/SkyTheme.css" />
+        <URL value="@/cms/view/old/stylesheets/UIStylesheet.css" />
+        <URL value="@/cms/view/old/stylesheets/SkyTheme.css" />
     </stylesheets>
     <bottom>
         <BorderPane fx:id="buttonPanel">
             <top>
-                <TableView fx:id="taskTableView">
-                    
+                <TableView fx:id="taskTableView" id="taskTableView">
+
                 </TableView>
             </top>
 

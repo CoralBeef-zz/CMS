@@ -1,13 +1,16 @@
 package cms.engine.connection.crawlserver;
 
+import com.mongodb.Block;
 import com.mongodb.ConnectionString;
 import com.mongodb.MongoClientSettings;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoDatabase;
+import com.mongodb.connection.SocketSettings;
 import org.bson.codecs.configuration.CodecRegistry;
 import org.bson.codecs.pojo.PojoCodecProvider;
 
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -73,6 +76,7 @@ public class MongoDBConnectionBuilder {
                 .build();
 
         mongoClient = MongoClients.create(mongoClientSettings);
+
         return this.mongoClient;
     }
 
