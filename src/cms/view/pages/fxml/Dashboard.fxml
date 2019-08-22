@@ -86,7 +86,7 @@
                 <TextField GridPane.columnIndex="1" GridPane.rowIndex="11"
                            GridPane.columnSpan="2"
                            fx:id="uploadCSVTextField" id="uploadCSVTextField"
-                           prefWidth="500">
+                           prefWidth="400">
                 </TextField>
                 <Button fx:id="browseCSVButton" id="browseCSVButton" text="Browse"
                         GridPane.columnIndex="3" GridPane.rowIndex="11"

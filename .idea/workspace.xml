@@ -7,17 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CMS/Data Select CMS.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CMS/Data Select CMS.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/CMS/Data Select CMS.jnlp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CMS/Data Select CMS.jnlp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/controller/DashboardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMS/cms/controller/DashboardController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/engine/uploader/Uploader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMS/cms/engine/uploader/Uploader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/model/Information.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMS/cms/model/Information.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CMS/cms/view/pages/fxml/Dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CMS/cms/view/pages/fxml/Dashboard.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cms/controller/DashboardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/controller/DashboardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cms/engine/connection/crawlserver/MongoDBConnectionBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/engine/connection/crawlserver/MongoDBConnectionBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cms/engine/uploader/Uploader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/engine/uploader/Uploader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cms/model/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/model/Information.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/cms/view/pages/fxml/Dashboard.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/cms/view/pages/fxml/Dashboard.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -78,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cms/controller/DashboardController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="1088">
               <caret line="64" column="137" selection-start-line="64" selection-start-column="137" selection-end-line="64" selection-end-column="137" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -92,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cms/model/ui/CrawledDataListLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
+            <state relative-caret-position="629">
               <caret line="37" column="115" selection-start-line="37" selection-start-column="115" selection-end-line="37" selection-end-column="115" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cms/engine/uploader/Uploader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1153">
-              <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+            <state relative-caret-position="1513">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/crawlserver/MongoDBConnectionBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+            <state relative-caret-position="1037">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
             </state>
           </provider>
         </entry>
@@ -125,7 +114,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cms/model/Information.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
+            <state relative-caret-position="1938">
               <caret line="140" column="43" selection-start-line="140" selection-start-column="43" selection-end-line="140" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -138,8 +127,8 @@
         <entry file="file://$PROJECT_DIR$/src/cms/view/pages/fxml/Dashboard.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="-361">
+              <caret line="91" column="59" lean-forward="true" selection-start-line="91" selection-start-column="59" selection-end-line="91" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -245,12 +234,12 @@
         <option value="$PROJECT_DIR$/src/cms/model/ui/AddTaskPane.java" />
         <option value="$PROJECT_DIR$/src/cms/controller/CrawlerStatusController.java" />
         <option value="$PROJECT_DIR$/src/cms/model/ui/CrawledDataListLoader.java" />
-        <option value="$PROJECT_DIR$/src/cms/view/pages/fxml/Dashboard.fxml" />
         <option value="$PROJECT_DIR$/src/cms/controller/DashboardController.java" />
         <option value="$PROJECT_DIR$/src/cms/model/Information.java" />
         <option value="$PROJECT_DIR$/src/cms/engine/uploader/Uploader.java" />
         <option value="$PROJECT_DIR$/src/cms/engine/connection/crawlserver/ConnectionManager.java" />
         <option value="$PROJECT_DIR$/src/cms/engine/connection/crawlserver/MongoDBConnectionBuilder.java" />
+        <option value="$PROJECT_DIR$/src/cms/view/pages/fxml/Dashboard.fxml" />
       </list>
     </option>
   </component>
@@ -270,7 +259,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -371,7 +360,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -463,7 +452,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CMS" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+    <configuration name="CMS" type="Application" factoryName="Application" singleton="true" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cms.CMS" />
       <module name="CMS" />
       <extension name="coverage">
@@ -652,17 +641,18 @@
       <workItem from="1566276692973" duration="1450000" />
       <workItem from="1566280145541" duration="10988000" />
       <workItem from="1566366989625" duration="10707000" />
+      <workItem from="1566448533718" duration="1405000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="446741000" />
+    <option name="totallyTimeSpent" value="448146000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.14966443" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.15167785" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.3295302" />
       <window_info id="Designer" order="3" />
@@ -671,7 +661,7 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25354108" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25212464" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1012,9 +1002,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/crawlserver/ConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cms/controller/DashboardController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
+        <state relative-caret-position="1088">
           <caret line="64" column="137" selection-start-line="64" selection-start-column="137" selection-end-line="64" selection-end-column="137" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1024,33 +1021,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cms/model/Information.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="140" column="43" selection-start-line="140" selection-start-column="43" selection-end-line="140" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/crawlserver/ConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/crawlserver/MongoDBConnectionBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cms/model/ui/CrawledDataListLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
+        <state relative-caret-position="629">
           <caret line="37" column="115" selection-start-line="37" selection-start-column="115" selection-end-line="37" selection-end-column="115" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1060,8 +1033,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cms/engine/uploader/Uploader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1153">
-          <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
+        <state relative-caret-position="1513">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/engine/connection/crawlserver/MongoDBConnectionBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cms/model/Information.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="140" column="43" selection-start-line="140" selection-start-column="43" selection-end-line="140" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1071,8 +1061,8 @@
     <entry file="file://$PROJECT_DIR$/src/cms/view/pages/fxml/Dashboard.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="-361">
+          <caret line="91" column="59" lean-forward="true" selection-start-line="91" selection-start-column="59" selection-end-line="91" selection-end-column="59" />
         </state>
       </provider>
     </entry>
