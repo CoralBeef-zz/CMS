@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            stylesheets="/cms/view/pages/stylesheets/custom.css"
+            fx:controller="cms.controller.v2controllers.UploaderControllers.CsvUploaderController"
+            fx:id="csvUploaderRoot" id="csvUploaderRoot"
+>
+    <padding><Insets top="20" right="50" bottom="20" left="50"/></padding>
+    <top>
+        <FlowPane hgap="50">
+
+            <padding><Insets top="20" right="50" bottom="20" left="50"/></padding>
+            <Button text="Back" fx:id="backButton" id="backButton"></Button>
+            <Label text="Browse CSV"></Label>
+            <TextField fx:id="addCSVTextField" id="addCSVTextField" minWidth="300.0" prefWidth="300.0"></TextField>
+            <Button text="Browse" fx:id="browseCSVButton" id="browseCSVButton" minWidth="100.0" prefWidth="100.0"></Button>
+            <Button text="Add" fx:id="addCSVButton" id="addCSVButton" minWidth="100.0" prefWidth="100.0"></Button>
+
+            <Label text="Upload CSV"></Label>
+            <TextField fx:id="collectionNameTextField" id="collectionNameTextField" minWidth="300.0" prefWidth="300.0"></TextField>
+            <Button text="Upload" fx:id="uploadCSVButton" id="uploadCSVButton" minWidth="100.0" prefWidth="100.0"></Button>
+
+        </FlowPane>
+    </top>
+
+    <center>
+        <HBox >
+            <padding><Insets top="20" right="50" bottom="20" left="50"/></padding>
+            <ScrollPane>
+                <VBox minWidth="1200" prefWidth="1200"
+                      fx:id="columnSelectorRoot" id="columnSelectorRoot">
+                </VBox>
+            </ScrollPane>
+            <VBox minWidth="400" prefWidth="400"
+                  maxHeight="800" alignment="BASELINE_CENTER">
+                <Label text="Available Columns" styleClass="h2"></Label>
+                <Pane minHeight="5.0" prefHeight="20.0"></Pane>
+                <ScrollPane>
+                    <VBox fx:id="draggableColumns" id="draggableColumns"
+                          spacing="5.0"
+                    ></VBox>
+                </ScrollPane>
+            </VBox>
+        </HBox>
+    </center>
+</BorderPane>

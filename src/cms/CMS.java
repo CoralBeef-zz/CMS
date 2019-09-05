@@ -10,7 +10,7 @@ import javafx.stage.Stage;
 public class CMS extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(this.getClass().getResource("/cms/view/old/Login.fxml"));
+        Parent root = FXMLLoader.load(this.getClass().getResource("/cms/view/pages/fxml/Login.fxml"));
         primaryStage.setTitle("Crawler Management System");
         primaryStage.setScene(new Scene(root, 500, 600));
         primaryStage.show();

@@ -2,13 +2,21 @@ package cms.engine.helpers;
 
 import javafx.animation.FadeTransition;
 import javafx.animation.TranslateTransition;
+import javafx.application.Application;
+import javafx.concurrent.Task;
+import javafx.fxml.FXMLLoader;
+import javafx.geometry.Pos;
 import javafx.geometry.Rectangle2D;
 import javafx.scene.Node;
-import javafx.scene.control.Button;
-import javafx.scene.control.TextField;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.control.*;
+import javafx.scene.layout.HBox;
 import javafx.scene.layout.Region;
+import javafx.stage.Modality;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import javafx.util.Duration;
 
 public abstract class FXWindowTools {
@@ -51,4 +59,66 @@ public abstract class FXWindowTools {
         } catch(InterruptedException exc) {}
     }
 
+    public static void openPage(Stage stage, Application application) {
+        try {
+            application.start(stage);
+        } catch (Exception exc) {
+            exc.printStackTrace();
+        }
+    }
+
+    public static void initializeMainStage(Application application, Stage stage, String fxmlPath) {
+        try {
+            FXMLLoader fxmlLoader = new FXMLLoader(application.getClass().getResource(fxmlPath));
+            Parent root = fxmlLoader.load();
+            Scene scene = new Scene(root);
+            stage.setScene(scene);
+            stage.show();
+
+            FXWindowTools.centerThisStage(stage);
+        } catch (Exception exc) {
+            exc.printStackTrace();
+        }
+    }
+
+    public static class ProgressForm {
+        private final Stage dialogStage;
+        private final ProgressBar pb = new ProgressBar();
+        private final ProgressIndicator pin = new ProgressIndicator();
+
+        public ProgressForm() {
+            dialogStage = new Stage();
+            dialogStage.initStyle(StageStyle.UTILITY);
+            dialogStage.setResizable(false);
+            dialogStage.initModality(Modality.APPLICATION_MODAL);
+
+            // PROGRESS BAR
+            final Label label = new Label();
+            label.setText("Loading..");
+
+            pb.setProgress(-1F);
+            pin.setProgress(-1F);
+
+            final HBox hb = new HBox();
+            hb.setMinSize(250,70);
+            hb.setPrefSize(250,70);
+
+            hb.setSpacing(5);
+            hb.setAlignment(Pos.CENTER);
+            hb.getChildren().addAll(label,pb, pin);
+
+            Scene scene = new Scene(hb);
+            dialogStage.setScene(scene);
+        }
+
+        public void activateProgressBar(final Task<?> task)  {
+            pb.progressProperty().bind(task.progressProperty());
+            pin.progressProperty().bind(task.progressProperty());
+            dialogStage.show();
+        }
+
+        public Stage getDialogStage() {
+            return dialogStage;
+        }
+    }
 }

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="cms.controller.v2controllers.UploaderControllers.csvUploaderController"
+            prefHeight="400.0" prefWidth="600.0">
+    <padding><Insets top="20" right="50" bottom="20" left="50"/></padding>
+    <top>
+        <FlowPane hgap="50">
+            <TextField fx:id="addCSVTextField" id="addCSVTextField" minWidth="500.0" prefWidth="500.0"></TextField>
+            <Button text="Browse" fx:id="browseCSVButton" id="browseCSVButton" minWidth="100.0" prefWidth="100.0"></Button>
+            <Button text="Add" fx:id="addCSVButton" id="addCSVButton" minWidth="100.0" prefWidth="100.0"></Button>
+
+        </FlowPane>
+    </top>
+
+    <center>
+        <VBox fx:id="columnSelectorRoot" id="columnSelectorRoot">
+
+        </VBox>
+    </center>
+</BorderPane>

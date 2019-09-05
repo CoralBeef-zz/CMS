@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            stylesheets="/cms/view/pages/stylesheets/custom.css, /cms/view/pages/stylesheets/UIStylesheet.css"
+            fx:controller="cms.controller.v2controllers.UploaderControllers.UploaderController"
+            styleClass="outerPane"
+            >
+    <center>
+        <FlowPane fx:id="rootPane" id="rootPane"
+            hgap="50" vgap="50"
+        >
+            <padding><Insets top="50" right="50" bottom="20" left="50"/></padding>
+        </FlowPane>
+
+    </center>
+
+</BorderPane>

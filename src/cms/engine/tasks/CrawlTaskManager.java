@@ -1,22 +1,16 @@
 package cms.engine.tasks;
 
-import cms.controller.CrawlerStatusController;
 import cms.engine.connection.crawlserver.ConnectionManager;
-import cms.engine.connection.crawlserver.ServerThread;
-import cms.engine.connection.soup.Helper;
 import cms.model.Arachnid;
-import cms.model.Columns;
 import cms.model.Task;
 import com.google.gson.Gson;
 import com.mongodb.client.MongoCollection;
 import org.bson.Document;
-import org.bson.types.ObjectId;
 
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 import static com.mongodb.client.model.Filters.eq;
 import static com.mongodb.client.model.Updates.combine;

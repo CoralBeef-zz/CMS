@@ -100,7 +100,8 @@ public class CsvColumnSelector extends GridPane {
 
             String selectedCategory = (String) (categoryBox.getSelectionModel().getSelectedItem());
             Integer selectedCategoryIndex = Columns.convertCategoryToIndex(selectedCategory);
-            csvUploader.upload(collectionNameField.getText(), selectedCategoryIndex, OUT_COLUMNS_CONVERTED);
+
+            //csvUploader.upload(collectionNameField.getText(), selectedCategoryIndex, OUT_COLUMNS_CONVERTED);
         } catch (Exception exc) {
             //TODO: Error Message Here
             getChildren().clear();

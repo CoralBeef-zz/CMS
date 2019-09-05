@@ -1,5 +1,11 @@
 package cms.model;
 
+import cms.engine.connection.crawlserver.ConnectionManager;
+import com.mongodb.client.MongoCollection;
+import com.mongodb.client.MongoCursor;
+import com.mongodb.client.model.Filters;
+import org.bson.Document;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
@@ -27,6 +33,11 @@ public enum Columns {
     TOWN("town"),
     DISTRICT("district"),
     BLOCK("block"),
+    ESTABLISHEDYEAR("establishedYear"),
+    CAPITAL("capital"),
+    SPECMAILADDRESS("specMailAddress"),
+    CONTACTPAGE("contactPage"),
+    NEWGRADUATESITE("newGraduateSite"),
 
     //RESTAURANT SITE CATEGORIES
     STORENAME("storeName"),
@@ -90,8 +101,26 @@ public enum Columns {
         columns.add(TOWN);
         columns.add(DISTRICT);
         columns.add(BLOCK);
+        columns.add(ESTABLISHEDYEAR);
+        columns.add(CAPITAL);
+        columns.add(SPECMAILADDRESS);
+        columns.add(CONTACTPAGE);
+        columns.add(NEWGRADUATESITE);
 
         return columns;
+    }
+
+    public static ArrayList<Document> getColumnsFromDatabase() {
+        ConnectionManager collection_to_get_manager = new ConnectionManager();
+        MongoCollection<Document> collection = collection_to_get_manager.AWSDB("DataSelectDB")
+                .getCollection("columns");
+
+        MongoCursor<Document> info_list = collection.find(Filters.eq("bigCategory", 1)).noCursorTimeout(true).iterator();
+        ArrayList<Document> out = new ArrayList<>();
+
+        while(info_list.hasNext()) out.add(info_list.next());
+
+        return out;
     }
 
     @SuppressWarnings("Duplicates")
@@ -125,6 +154,12 @@ public enum Columns {
         columns.add(MAILADDRESS);
 
         return columns;
+    }
+
+    public static HashMap<String, ArrayList<Columns>> getAllColumnsOnServer() {
+        HashMap<String, ArrayList<Columns>> cols = new HashMap<>();
+
+        return cols;
     }
 
     public static HashMap<String, ArrayList<Columns>> getAllColumns() {
