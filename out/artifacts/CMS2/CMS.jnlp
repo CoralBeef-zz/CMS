@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CMS.jnlp">
+  <information>
+    <title>Uploader</title>
+    <vendor>Unknown</vendor>
+    <description>CMS2</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CMS.jar" size="19652302" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="500" height="600" main-class="cms.CMS"  name="CMS2" />
+  <update check="background"/>
+</jnlp>

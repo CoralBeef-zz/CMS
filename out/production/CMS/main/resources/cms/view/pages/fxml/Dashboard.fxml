@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="main.resources.cms.controller.v2controllers.Dashboard2Controller"
+>
+    <center>
+    <TabPane tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <Tab text="Uploader">
+                <fx:include fx:id="fooTabPage" source="/main/resources/cms/view/pages/fxml/UploaderFXML/UploaderDashboard.fxml"/>
+            </Tab>
+        </tabs>
+
+    </TabPane>
+    </center>
+
+</BorderPane>

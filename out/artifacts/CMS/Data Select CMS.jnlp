@@ -8,8 +8,8 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Data Select CMS (BIT-DEV-011's conflicted copy 2019-08-23).jar" size="19644768" download="eager" />
-    <jar href="Data Select CMS.jar" size="19639842" download="eager" />
+    <jar href="Data Select CMS (BIT-DEV-011's conflicted copy 2019-08-23).jar" size="19136512" download="eager" />
+    <jar href="Data Select CMS.jar" size="19656898" download="eager" />
   </resources>
   <jfx:javafx-desc  width="500" height="600" main-class="cms.CMS"  name="CMS" />
   <update check="background"/>

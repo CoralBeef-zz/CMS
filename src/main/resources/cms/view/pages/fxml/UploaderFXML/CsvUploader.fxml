@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            stylesheets="/main/resources/cms/view/pages/stylesheets/custom.css, /main/resources/cms/view/pages/stylesheets/UIStylesheet.css"
+            fx:controller="main.resources.cms.controller.v2controllers.UploaderControllers.CsvUploaderController"
+>
+    <padding><Insets top="20" right="100" bottom="20" left="100"/></padding>
+    <top>
+        <HBox prefHeight="100" >
+            <padding><Insets top="20" right="100" bottom="20" left="20"/></padding>
+            <Label
+                    GridPane.columnIndex="0" GridPane.rowIndex="5"
+                    prefWidth="400" minWidth="400"
+                    styleClass="h1" text="CSV Uploader"></Label>
+            <Pane prefWidth="1200" GridPane.columnIndex="1" GridPane.rowIndex="5"></Pane>
+            <Button fx:id="backButton" id="backButton" text="Back"
+                    prefWidth="100" minWidth="100"
+                    styleClass="button"
+                    GridPane.columnIndex="2" GridPane.rowIndex="5"
+            ></Button>
+        </HBox>
+    </top>
+
+    <left>
+        <BorderPane prefWidth="350">
+            <top>
+                <HBox prefHeight="50">
+                    <Label text="CSV Data" alignment="BASELINE_LEFT" styleClass="h2"/>
+                </HBox>
+            </top>
+            <center>
+                <ListView prefWidth="340" fx:id="leftPanelList"></ListView>
+            </center>
+            <right>
+                <VBox spacing="10" prefWidth="60">
+                    <Button fx:id="leftPanelAdd" id="leftPanelAdd" prefHeight="50" prefWidth="50" text="+" alignment="CENTER"/>
+                    <Button fx:id="leftPanelRemove" id="leftPanelRemove" prefHeight="50" prefWidth="50" text="-" disable="true" alignment="CENTER"/>
+                    <Button fx:id="leftPanelMatch" id="leftPanelMatch" prefHeight="50" prefWidth="50" text="*" disable="true" alignment="CENTER"/>
+                </VBox>
+            </right>
+        </BorderPane>
+    </left>
+
+    <center>
+        <BorderPane prefWidth="800">
+            <top>
+                <VBox prefHeight="100">
+                    <HBox spacing="10" alignment="TOP_CENTER">
+                        <Label text="Collection Name: " />
+                        <ComboBox prefWidth="400" fx:id="finalCollectionName" id="finalCollectionName" editable="true" />
+                    </HBox>
+                </VBox>
+            </top>
+            <center>
+                <VBox fx:id="insertColumnPaneParent" id="insertColumnPaneParent" prefWidth="700" alignment="TOP_CENTER" styleClass="borderedPane">
+                    <!--VBox alignment="TOP_CENTER" prefHeight="80" fx:id="insertColumnPane" id="insertColumnPane" visible="false">
+
+                        <Label text="Collection Already Exists!" />
+
+                        <HBox spacing="10" alignment="BASELINE_CENTER" prefWidth="750" prefHeight="100" >
+                            <Pane prefWidth="50"/>
+                            <Label text="Combine Data if "/>
+                            <TextField fx:id="matchCsvColumn" id="matchCsvColumn" prefWidth="200"/>
+                            <Label text="is equal to "/>
+                            <TextField fx:id="matchDbColumn" id="matchDbColumn" prefWidth="200"/>
+                        </HBox>
+                    </VBox-->
+
+
+                    <Pane prefHeight="50" />
+                    <ScrollPane>
+                        <VBox prefWidth="800" alignment="BASELINE_CENTER" spacing="5" fx:id="builder" id="builder"/>
+                    </ScrollPane>
+                </VBox>
+            </center>
+            <bottom>
+                <FlowPane alignment="CENTER">
+                    <Button text="Final Upload" fx:id="finalUploadButton" id="finalUploadButton"/>
+                </FlowPane>
+            </bottom>
+        </BorderPane>
+    </center>
+
+    <right>
+        <BorderPane prefWidth="350">
+            <top>
+                <HBox prefHeight="50" alignment="BASELINE_RIGHT" styleClass="h2">
+                    <Label text="Columns" />
+                </HBox>
+            </top>
+            <left>
+                <VBox spacing="10" prefWidth="60">
+                    <Button fx:id="rightPanelMatch" id="rightPanelAdd" prefHeight="50" prefWidth="50" text="*" disable="true" alignment="CENTER"/>
+                </VBox>
+            </left>
+            <center>
+                <TextField prefWidth="240" fx:id="rightPanelField" />
+                <ListView prefWidth="240" fx:id="rightPanelList" />
+            </center>
+        </BorderPane>
+    </right>
+
+</BorderPane>

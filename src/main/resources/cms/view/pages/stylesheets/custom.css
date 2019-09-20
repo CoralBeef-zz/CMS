@@ -1,0 +1,79 @@
+.draggableColumnBox {
+    -fx-font-size: 20px;
+    -fx-text-fill: #0D083B;
+
+    -fx-border-width: 1px;
+    -fx-border-color: #A9AEEC;
+}
+
+.outerPane {
+    -fx-background-color: #A9AEEC;
+}
+
+.h1 {
+    -fx-font-size: 3em;
+    -fx-text-fill: #0D083B;
+    -fx-font-family: "Footlight MT Light";
+}
+
+.h2 {
+    -fx-font-size: 1.8em;
+    -fx-text-fill: #0D083B;
+    -fx-font-family: "Footlight MT Light";
+}
+
+.dataListBox {
+    -fx-background-color: #837EB1;
+    -fx-text-fill: #0D083B;
+    -fx-font-size: 1.3em;
+    -fx-font-family: "Footlight MT Light";
+
+    -fx-border-width: 1px;
+    -fx-border-color: #0D083B;
+}
+
+#draggableColumns {
+    -fx-border-width: 2px;
+    -fx-border-color: #0D083B;
+}
+
+.draggableColumnBox-background1 {
+    -fx-background-color: #5A5494;
+}
+
+
+.draggableColumnBox-background2 {
+    -fx-background-color: #837EB1;
+}
+
+.borderedScrollPane {
+    -fx-border-width: 2px;
+    -fx-border-color: #0D083B;
+}
+
+.dashboardButton {
+    -fx-background-color: #A9AEEC;
+    -fx-border-width: 2px;
+    -fx-border-color: #0D083B;
+    -fx-font-family: "Footlight MT Light";
+}
+
+.dashboardButton-title {
+    -fx-font-size: 1.2em;
+}
+
+.dashboardButton-desc {
+    -fx-font-size: 1em;
+}
+
+.activatedField {
+    -fx-border-width: 2px;
+    -fx-border-color: darkgreen;
+}
+
+.builderRow {
+    -fx-background-color: white;
+    -fx-border-width: 1px;
+    -fx-border-color: #837EB1;
+    -fx-font-size: 15px;
+}
